@@ -1,0 +1,21 @@
+.search-bar{
+    /* top: 222px;
+        left: 630px; */
+        
+        /* UI Properties */
+        background: #DDDDDD 0% 0% no-repeat padding-box;
+        border: 1px solid #B5B4B6;
+        border-radius: 7px;
+        opacity: 1;
+}
+.search-bar input{
+
+    width: 855px;
+    height: 49px;
+    border: none;
+    background: #DDDDDD 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B4B6;
+    border-radius: 7px;
+    opacity: 1;
+    font-size: 20px;
+}

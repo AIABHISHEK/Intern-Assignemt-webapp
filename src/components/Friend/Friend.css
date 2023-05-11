@@ -1,0 +1,100 @@
+.overlay {
+    width: 1000px;
+    background-color: aliceblue;
+    width: 902px;
+    height: 80vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #649B8E;
+    border-radius: 10px;
+}
+
+.friend-type-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-top: 39px;
+}
+.search{
+    flex: 1;
+    margin-top: 39px;
+    margin-left: 25px;
+    margin-right: 23px;
+}
+.friend-list{
+    margin: 22px;
+    margin-top: 50px;
+    flex: 2;
+    
+}
+.checks {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+
+}
+
+#selectAll {
+    display: flex;
+    width: 80%;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 90%;
+    border-bottom: 2px solid black;
+
+}
+
+.checkbox-list img {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+
+}
+
+.checkbox-list div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.add-cancel-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    margin-top: 150px;
+}
+
+.add-friends-btn {
+    width: 767px;
+    height: 59px;
+    background: #649B8E 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    margin: 15px 10px 15px 10px;
+    letter-spacing: 0.63px;
+    color: #FBF5FF;
+}
+
+.cancel-btn {
+    width: 775px;
+    height: 59px;
+    border: 1px solid #649B8E;
+    border-radius: 24px;
+    opacity: 1;
+    font: normal normal bold 20px/24px Roboto;
+    letter-spacing: 0.63px;
+    color: #649B8E;
+}

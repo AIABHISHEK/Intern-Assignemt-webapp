@@ -1,0 +1,16 @@
+.search-type-btn {
+
+    width: 148px;
+    height: 37px;
+    border-radius: 5px;
+
+    font: normal normal medium 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: #649B8E;
+}
+
+.search-type-btn:active {
+    background: #649B8E 0% 0% no-repeat padding-box;
+    border: 1px solid #649B8E;
+    color: #FFFFFF;
+}

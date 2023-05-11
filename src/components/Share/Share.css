@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.share-options {
+    width: 511px;
+    height: 483px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #979797;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    /* margin-left: 30px; */
+}
+
+.options-container h3 {
+    color: #454545;
+    margin: 50px;
+    font-size: 29px;
+    font-family: Roboto, Bold;
+    text-align: center;
+}
+
+.option-text {
+    width: 368px;
+    height: 37px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0.63px;
+    color: #666666;
+    font-size: 20px;
+    font-family: Roboto-Regular, sans-serif;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch {
+    display: inline-block;
+    width: 60px;
+    /*=w*/
+    height: 30px;
+    /*=h*/
+    margin: 4px;
+    transform: translateY(50%);
+    position: relative;
+}
+
+.slider {
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+    border-radius: 9px;
+    transform: translateX(-30px);
+    /*translateX(-(w-h))*/
+    transition: 0.2s;
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+    background-color: #649B8E;
+}
+
+input:checked+.slider {
+    box-shadow: 0 0 0 2px #649B8E, 0 0 8px #649B8E;
+}
+
+.slider {
+    box-shadow: 0 0 0 2px #649B8E, 0 0 8px #649B8E;
+}
+
+.switch200 .slider:before {
+    width: 200%;
+    transform: translateX(-82px);
+}
+
+.switch200 input:checked+.slider:before {
+    background-color: #649B8E;
+}
+
+.switch200 input:checked+.slider {
+    box-shadow: 0 0 0 2px #649B8E, 0 0 8px #649B8E;
+}
+
+.confirm-button {
+    margin: 30px;
+    margin-top: 50px;
+    width: 216px;
+    height: 50px;
+    background: #649B8E;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.69px;
+    color: #FBF5FF;
+    font-size: 22px;
+    font-family: Roboto-Bold, sans-serif;
+}

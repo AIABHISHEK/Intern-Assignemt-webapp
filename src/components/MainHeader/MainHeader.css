@@ -1,0 +1,19 @@
+.event-create {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 15px 14px 15px 14px;
+    border: #b5bbc8;
+    background-color: #E6F2EF;
+    border-radius: 16px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.event-create h3{
+    margin: 17px;
+    margin-right: 29px;
+}
